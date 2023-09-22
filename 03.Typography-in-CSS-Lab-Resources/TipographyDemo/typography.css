@@ -1,0 +1,80 @@
+html{
+
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+font-size: 16px;
+line-height: 1.5;
+
+}
+
+body,table,input,button {
+    font: inherit
+}
+
+
+h1,h2,h3,h4
+{
+font-size: 1em;
+margin-bottom: 0.5em;
+margin-top: 1.5em;
+font-weight: normal;
+}
+h1{font-size: 3.0em; color: blue;}
+h2{font-size: 2.4em;}
+h3{font-size: 1.8em;}
+h4{font-size: 1.4em;}
+h5{font-size: 1.3em; font-weight: bold;}
+h6{font-size: 1.2em; font-weight: bold;}
+aside{color: darkmagenta;}
+footer{font-style:italic; text-align: oblique; color: chocolate;background: color(xyx red green blue);}
+
+p,* + ul,* + ol {
+    padding-bottom: 1.5em;
+}
+
+
+p{
+    padding-bottom: 0.5em;
+}
+article{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p,ul,ol,blockquote{
+    padding-bottom: 1.5em;
+}
+ul,ul,ol,ol,ul,ol,ol,ul {
+    padding-bottom: 0;
+}
+
+ul,ol,blockquote {
+    list-style-position: inside;
+    padding-left: 1.5em;
+}
+ul,ol {
+    list-style-position: initial;
+}
+blockquote {
+    border-left: 4px solid brown; 
+    padding-left: 1.5em;
+    margin-bottom: 1.5em;
+    font-style: italic;
+    color: #666;
+}
+
+blockquote p:first-child::before,
+blockquote p :nth-last-child(1):not(author)::after{
+ display: inline-block;
+    content: '"';
+}
+   
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+blockquote p.author{
+    text-align: right;
+}
+blockquote p.author::before{
+    display: inline-block;
+    content: '-';
+    padding-right: 0.5em;
+}
