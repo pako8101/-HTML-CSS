@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    border-bottom: 2px solid #369;
+    padding: 1em 0;
+    position: relative;
+    margin-bottom: 1rem;
+
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    line-height: 1;
+    display: inline-block;
+
+}
+
+.header_links {
+      position: absolute;
+    margin-left: 180px;
+    bottom: 50%;
+    right: 0;
+    transform: translateY(50%);
+  
+   
+}
+   /* main .line-1 {
+    margin-top: 20px;
+    height: 1px;
+    background: black;
+  }*/
+
+
+.item {
+    display: inline-block;
+
+    text-align: center;
+
+  margin-left: 24px;
+ 
+}
+
+/*.item:not(:last-child){
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
