@@ -1,0 +1,14 @@
+div {
+  border: 1px solid black;
+}
+
+p {
+  font-weight: bold;
+  background-color: coral;
+}
+
+p {
+  margin-inline: 30%;
+}
+
+
