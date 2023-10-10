@@ -1,0 +1,55 @@
+body {
+    background-color: #EEE;
+    padding: 5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    padding:  2rem;
+    background-color: #EEE;
+    border-radius: 0.4rem;
+    color: #000;
+    flex-basis: 100%;
+
+}
+.footer {
+    padding:  2rem;
+    background-color: #EEE;
+    border-radius: 0.4rem;
+    color: #000;
+    flex-basis: 100%;
+}
+.main {
+    padding:  2rem;
+    background-color: #EEE;
+    border-radius: 0.4rem;
+    color: #000;
+    flex: 8 1 40rem;
+}
+.aside {
+    padding:  2rem;
+    background-color: #EEE;
+    border-radius: 0.4rem;
+    color: #000;
+    flex: 2 1 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
