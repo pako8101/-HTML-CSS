@@ -1,0 +1,101 @@
+
+
+html {
+    font: 12px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    padding: 2em;
+    
+}
+/* Colors #1881b6 - blue
+pink - #b6416d
+*/
+
+
+.section{
+    background-color:#1881b6 ;
+    border-radius: 16px;
+    border: 5px solid black;
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+
+}
+
+.section .info{
+    width: 50%;
+    padding: 48px 0px 32px 12px;
+    font-size: medium;
+    margin: 2rem auto;
+   
+}
+
+.section .title-main{
+     font-size: 3rem;
+    margin-bottom: 6px;
+    font-weight: normal;
+    color: white;
+    padding-left: 16px;
+}
+.section .title{
+  text-transform:uppercase;
+     font-size: 19px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    padding-left: 16px;
+
+}
+
+.section .desc{
+    padding: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  
+}
+.section .info .text {
+   text-align: match-parent;
+}
+.section .desc span{
+    padding-left: 3rem;
+}
+.section .btn{
+    all: unset;
+    border: 1px solid #1a2634;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+  text-decoration: none;
+}
+
+.section .btn.btn--primary{
+
+    border-color: black;
+    background-color: #b6416d;
+    color: white;
+    margin:42px 56px 0px 80px;
+
+}
+.section .picture{
+    display: block;
+width:32%;
+margin: auto;
+height: auto;
+}
+/*.section .btn.btn--secondary {
+
+}*/
+
+
+
+
+
+
+
+
+
+
